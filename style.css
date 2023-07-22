@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+section {
+  width: 1350px;
+  margin: auto ; 
+  border-radius: 18px 18px ;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: url(bg.webp);
+  background-size: cover;
+  background-position: center;
+
+}
+header {
+  position: relative;
+  top: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  position: relative;
+  color:#93B600;
+  font-size: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+header .navigation a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 2px 15px;
+
+  transition-property: background;
+}
+header .navigation a:not(:last-child) {
+  margin-right: 30px;
+}
+header .navigation a:hover {
+  background: #6C8A05;
+  border-radius: 20px;
+}
+
+.content {
+  max-width: 650px;
+  margin: 60px 100px;
+}
+.content .info h2 {
+  color: #fff;
+  font-size: 55px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 60px;
+  margin-bottom: 30px;
+}
+.content .info h2 span {
+  color: #754526;
+  font-size: 50px;
+  font-weight: 600;
+}
+.content .info p {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #000;
+}
+.content .info-btn {
+  color: #fff;
+  background: #93B600;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+  transition-property: background;
+}
+.content .info-btn:hover {
+  background: #6C8A05;
+}
+.media-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto; 
+}
+.media-icon a {
+  position: relative;
+  color: #93B600;
+  font-size: 25px;
+  transition-property: transform;
+}
+.media-icon a:not(:last-child) {
+  margin-right: 60px;
+}
+.media-icon a:hover {
+  transform: scale(1.5);
+}
